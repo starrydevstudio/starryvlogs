@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    background-image: url('./bottom.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+}
+
+.custom-body {
+    height: 100%;
+    background-image: url('./background-image.jpg');
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: center;
+}
+
+.custom {
+    display: flex;
+    /* color: white; */
+    text-align: center;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.custom h1 {
+    font-weight: 700;
+    font-size: 4rem;
+
+}
+.custom h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.custom p {
+    color: black;
+    -webkit-text-fill-color: black;
+    max-width: 720px;
+    margin: 20px auto;
+}
+
+.custom-btn {
+    color: white;
+    -webkit-text-fill-color: white;
+    font-size: 1.5rem;    
+    padding: 5px 4rem;
+    margin: 0px 10px;
+    -webkit-background-clip: none;
+}
+
+.custom-btn:hover {
+    color: white;
+}
+
+
+.btn-facebook {
+    background: #354BA0;
+}
+
+.btn-youtube {
+    background: #EE2A2D;
+}
