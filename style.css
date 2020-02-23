@@ -67,3 +67,17 @@ body {
 .btn-youtube {
     background: #EE2A2D;
 }
+
+@media (max-width: 565px) {
+    .custom h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    .custom h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    body {
+        background-size: 400vw;
+    }
+}
